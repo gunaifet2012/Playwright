@@ -1,0 +1,23 @@
+{
+  "name": "orangehrm-playwright-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright TypeScript automation framework for OrangeHRM",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^24.3.0",
+    "dotenv": "^17.2.2",
+    "eslint": "^9.35.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.42.0"
+  }
+}
