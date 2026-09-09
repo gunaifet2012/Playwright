@@ -85,7 +85,4 @@ jobs:
           path: test-results/
           if-no-files-found: ignore
           retention-days: 14
-          name: test-results-${{ matrix.shard }}
-          path: test-results/
-          if-no-files-found: ignore
-          retention-days: 14
+      
